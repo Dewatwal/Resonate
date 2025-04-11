@@ -13,7 +13,7 @@ const DisplayHome = () => {
         <h1 className='my-5 font-bold text-2xl'>Featured Charts</h1>
         <div className='flex overflow-x-auto pb-2 gap-4 scrollbar-hide'>
           {albumsData.map((item,index) => (
-            <div key={index} className='flex-shrink-0 w-40'> {/* Smaller width */}
+            <div key={index} className='flex-shrink-0 w-40'> {}
               <AlbumItem 
                 name={item.name} 
                 desc={item.desc} 
@@ -29,7 +29,7 @@ const DisplayHome = () => {
         <h1 className='my-5 font-bold text-2xl'>Today's Biggest Hits</h1>
         <div className='flex overflow-x-auto pb-2 gap-4 scrollbar-hide'>
           {songsData.map((item,index) => (
-            <div key={index} className='flex-shrink-0 w-40'> {/* Smaller width */}
+            <div key={index} className='flex-shrink-0 w-40'> {}
               <SongItem 
                 name={item.name} 
                 desc={item.desc} 
